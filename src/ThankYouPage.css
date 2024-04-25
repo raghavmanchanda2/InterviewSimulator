@@ -1,0 +1,18 @@
+.thank-you-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make the container take the full height of the viewport */
+    font-family: 'Monotype Corsiva', cursive; /* Use 'cursive' as a fallback */
+    /*background-color: rgb(75, 0, 130);*/
+    color: #000000;
+  }
+
+  .thank-you-heading {
+    font-size: 8rem; /* Adjust the font size as needed */
+  }
+
+  .thank-you-message {
+    font-size: 1.5rem; /* Adjust the font size as needed */
+  }

@@ -1,0 +1,160 @@
+/* Header */
+header {
+  position: relative;
+  height: 100vh;
+  min-height: 500px;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif; /* Use Montserrat font */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+/* Banner Text */
+header .banner-text {
+  width: 100%;
+  color: black;
+}
+
+header .banner-text h1 {
+  font: 90px/1.1em "Montserrat", sans-serif; /* Use Montserrat font */
+  letter-spacing: -2px;
+  margin: 0 auto 18px auto;
+}
+
+header .banner-text h3 {
+  font: 18px/1.9em "Montserrat", sans-serif; /* Use Montserrat font */
+  color: black;
+  margin: 0 auto;
+  width: 70%;
+}
+
+header .banner-text h3 span,
+header .banner-text h3 a {
+  color: black;
+}
+
+header .banner-text hr {
+  width: 60%;
+  margin: 18px auto 24px auto;
+  border-color: #2f2d2e;
+  border-color: rgba(150, 150, 150, 0.1);
+}
+
+/* Scrolldown Link */
+#menu a {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -29px;
+  color: #000000;
+  display: block;
+  height: 42px;
+  width: 42px;
+  font-size: 42px;
+  line-height: 42px;
+  border-radius: 100%;
+
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#menu a:hover {
+  color: #0762f9;
+}
+
+/* Navigation */
+#nav-wrap {
+  font: 16px "Montserrat", sans-serif; /* Use Montserrat font */
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin: 0 auto;
+  z-index: 100;
+  /* position: fixed; */
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center align horizontally */
+}
+
+ul#nav {
+  min-height: 48px;
+  width: auto;
+  text-align: center; /* Center align horizontally */
+}
+
+ul#nav li {
+  position: relative;
+  list-style: none;
+  height: 48px;
+  display: inline-block;
+}
+
+ul#nav li a {
+  display: inline-block;
+  padding: 8px 13px;
+  line-height: 32px;
+  text-decoration: none;
+  text-align: left;
+  color: #000000;
+
+  -webkit-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+
+ul#nav li a:active {
+  color: #fe6928;
+}
+ul#nav li a:hover {
+  color: #fe6928;
+}
+
+/* 
+ul#nav li.current a {
+    color: #fe6928;
+} */
+
+body {
+  margin: 0;
+}
+
+html,
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+.slider-container {
+  padding: 5rem 0;
+  margin-top: -4%;
+}
+
+
+
+body::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar
+{
+  width: 10px;
+  background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+  background-color: #555555;
+  border: 2px solid #555555;
+}
+

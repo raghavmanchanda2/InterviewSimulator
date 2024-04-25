@@ -1,0 +1,7 @@
+body {
+    background-color: #f1f3f7;
+}
+
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+}
