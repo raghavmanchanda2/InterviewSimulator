@@ -28,7 +28,7 @@ Python: Version 3 or newer
 
 # Frontend Repository Link
 
-https://github.com/yash0208/InterviewSimulator
+https://github.com/raghavmanchanda2/InterviewSimulator
 
 # Backend Repository Link
 
